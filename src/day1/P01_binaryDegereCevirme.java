@@ -4,27 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class P01_desimaltoBinary {
+public class P01_binaryDegereCevirme {
 
     // Girilen desimal değeri binary değere çeviren metodu oluşturunuz.
     // Örnek: 12 = 1 1 0 0
 
     public static void main(String[] args) {
 
-        System.out.println("lutfen desimal deger giriniz");
         Scanner scanner = new Scanner(System.in);
-        int sayi = scanner.nextInt();
 
-        System.out.println(sayi + " Desimal sayinin binary degeri: " + binaryConver(sayi));
+        System.out.println("lutfen desimal deger giriniz:");
+        int desimal = scanner.nextInt();
+
+        System.out.println(desimal + " Desimal sayinin binary degeri: \n" + binaryDegereCevir(desimal));
 
     }
-    public static List<Integer> binaryConver (int sayi){
+    public static List<Integer> binaryDegereCevir (int desimal){
 
         List<Integer> binary = new ArrayList<>();
 
-        while (sayi > 0){
-            binary.add(sayi % 2);
-            sayi /= 2;
+        while (desimal > 0){
+            binary.add(desimal % 2);
+            desimal /= 2;
         }
 
         List<Integer> tersBinary = new ArrayList<>();
