@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class P01 {
+public class P01_desimaltoBinary {
 
     // Girilen desimal değeri binary değere çeviren metodu oluşturunuz.
     // Örnek: 12 = 1 1 0 0
