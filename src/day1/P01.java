@@ -6,10 +6,8 @@ import java.util.Scanner;
 
 public class P01 {
 
-    /*
-    Girilen desimal değeri binary değere çeviren metodu oluşturunuz.
-    Örnek: 12 = 1 1 0 0
-     */
+    // Girilen desimal değeri binary değere çeviren metodu oluşturunuz.
+    // Örnek: 12 = 1 1 0 0
 
     public static void main(String[] args) {
 
